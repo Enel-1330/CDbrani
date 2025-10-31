@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CDbrani")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+762f228a99e1f86c32a7e5e450a34f4b026c69c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CDbrani")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CDbrani")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
