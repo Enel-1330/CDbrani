@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +8,29 @@ namespace BranoCD
 {
     internal class Brano
     {
-        public string _titolo { get; set; }
-        public string _autore { get; set; }
+        public string _titolo 
+        {
+            get
+            {
+                return _titolo;
+            }
+            set
+            {
+                _titolo = value;
+            }
+        }
+        public string _autore
+        {
+            get
+            {
+                return _autore;
+            }
+            set
+            {
+                _autore = value;
+
+            }
+        }
         public double _durata
         {
             get { return _durata; }
@@ -37,41 +58,14 @@ namespace BranoCD
         }
         public string toString()
         {
-            return _titolo;
+            string durata = _durata.ToString();
+            return _autore + _titolo + durata;
         }
 
-        public string GetTitolo()
+        public bool shortSong (double durata)
         {
-            return _titolo;
+            return (durata < _durata);
         }
-
-        public double GetDurata()
-        {
-            return _durata;
-        }
-        public string GetAutore()
-        {
-            return _autore;
-        }
-
-        public string SetTitolo(string titolo)
-        {
-            _titolo = titolo;
-            return _titolo;
-        }
-
-        public string SetAutore(string autore)
-        {
-            _autore = autore;
-            return _autore;
-        }
-
-        public double SetDurata(double durata)
-        {
-            _durata = durata;
-            return _durata;
-        }
-
 
     }
 }
