@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OQyEeZ8M4IY=",
+  "dgSpecHash": "dOAy4G71btA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\enrico.bagnolini\\source\\repos\\CDbrani\\CDbrani\\CDbrani.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\enrico.bagnolini\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.21\\microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512",
-    "C:\\Users\\enrico.bagnolini\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
-    "C:\\Users\\enrico.bagnolini\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.21\\microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512",
-    "C:\\Users\\enrico.bagnolini\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.21\\microsoft.netcore.app.host.win-x64.8.0.21.nupkg.sha512"
-  ],
+  "projectFilePath": "Z:\\tp-sit\\Laboratorio\\Brani CD\\CDbrani\\CDbrani\\CDbrani.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

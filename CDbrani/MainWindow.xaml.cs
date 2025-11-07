@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CDbrani
+namespace Progetto_brani_e_cd
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,6 +19,11 @@ namespace CDbrani
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
