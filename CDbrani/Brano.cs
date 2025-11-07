@@ -14,7 +14,7 @@ namespace BranoCD
             {
                 return _titolo;
             }
-            set
+            private set
             {
                 _titolo = value;
             }
@@ -25,7 +25,7 @@ namespace BranoCD
             {
                 return _autore;
             }
-            set
+            private set
             {
                 _autore = value;
 
@@ -35,7 +35,7 @@ namespace BranoCD
         {
             get { return _durata; }
 
-            set
+            private set
             {
                 if (value <= 0)
                 {
