@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{82C957C0-9220-4090-80C2-48BD7C9327CA}|CDbrani\\CDbrani.csproj|solutionrelative:cdbrani\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82C957C0-9220-4090-80C2-48BD7C9327CA}|CDbrani\\CDbrani.csproj|c:\\users\\enrico.bagnolini\\source\\repos\\cdbrani\\cdbrani\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82C957C0-9220-4090-80C2-48BD7C9327CA}|CDbrani\\CDbrani.csproj|solutionrelative:cdbrani\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82C957C0-9220-4090-80C2-48BD7C9327CA}|CDbrani\\CDbrani.csproj|c:\\users\\enrico.bagnolini\\source\\repos\\cdbrani\\cdbrani\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{82C957C0-9220-4090-80C2-48BD7C9327CA}|CDbrani\\CDbrani.csproj|solutionrelative:cdbrani\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C957C0-9220-4090-80C2-48BD7C9327CA}|CDbrani\\CDbrani.csproj|c:\\users\\enrico.bagnolini\\source\\repos\\cdbrani\\cdbrani\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C957C0-9220-4090-80C2-48BD7C9327CA}|CDbrani\\CDbrani.csproj|solutionrelative:cdbrani\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,25 +32,27 @@
               "RelativeDocumentMoniker": "CDbrani\\CD.cs",
               "ToolTip": "C:\\Users\\enrico.bagnolini\\source\\repos\\CDbrani\\CDbrani\\CD.cs",
               "RelativeToolTip": "CDbrani\\CD.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwCsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T08:21:27.473Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\enrico.bagnolini\\source\\repos\\CDbrani\\CDbrani\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CDbrani\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\enrico.bagnolini\\source\\repos\\CDbrani\\CDbrani\\MainWindow.xaml",
               "RelativeToolTip": "CDbrani\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-31T08:14:20.085Z"
+              "WhenOpened": "2025-10-31T08:14:20.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\enrico.bagnolini\\source\\repos\\CDbrani\\CDbrani\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CDbrani\\MainWindow.xaml.cs",
@@ -58,8 +60,7 @@
               "RelativeToolTip": "CDbrani\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T08:14:18.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T08:14:18.665Z"
             }
           ]
         }

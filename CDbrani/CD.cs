@@ -3,20 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Markup;
 
 namespace CDbrani
 {
     internal class CD
     {
-        public string _titolo { get; private set; }
-        public string _autore { get; private set; }
-        
+        public string _titolo {get; private set; }
+        public string _autore {get; private set; }
 
-        public CD(string titolo, string autore) 
+        private List<Brano> cd = new List<Brano>();
+
+        public CD(string titolo, string autore, List<Brano> brani) 
         {
-            List<Brano> cd = new List<Brano>();
             _titolo = titolo;
             _autore = autore;
+            cd = brani;
         }
 
         public string getTitolo()
@@ -41,8 +44,26 @@ namespace CDbrani
 
         public override string ToString()
         {
-            foreach () { }
+            string listaBrani = "";
+
+            for (int i = 0; i < cd.Count(); i++)
+            {
+                listaBrani += cd[i]._titolo + ", ";
+            }
+
+            return listaBrani;   
         }
 
+        public double Durata()
+        {
+            double durataTotale = 0;
+
+            for (int i = 0; i < cd.Count(); i++) 
+            { 
+                durataTotale += cd[i]._durata;
+            }
+            
+            return durataTotale;
+        }
     }
 }
